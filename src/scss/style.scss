@@ -1,0 +1,27 @@
+@import '_constants';
+@import '_default';
+@import "button";
+@import "form";
+.app {
+  box-sizing: border-box;
+  width: 800px;
+  margin: 0 auto;
+}
+.btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: #ccc;
+  text-align: center;
+  z-index: 999;
+}
+.forms {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+  overflow-y: scroll;
+}
